@@ -3,17 +3,50 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <title>
-            Predict the Weather
+            Weather Forecast Generator 
         </title>
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
-    <body>
-        <div class="underline">        
-            <h1 class="header">Lets Predict the Weather!</h1>
-        </div>
-        <div class="separate">
-            <p>The weather forecast is...</p>    
-        </div>
+    <body>      
+        <h1 class="title">Weekly Weather Update</h1>
+        <h2>5 Day Forecast</h2>
+        <form>
+            <label for="location">Location (city):</label>
+            <select id="location" name="location">
+                <option value="Austin">Austin</option> 
+                <option value="Dallas">Dallas</option>
+                <option value="Fort Worth">Fort Worth</option>
+                <option value="Houston">Houston</option>
+            </select>
+        </form>
+        <section class="chart">
+            <section id="monday" class="day">
+                <section id="top">Monday</section>
+                <section id="hi-temp">High Temp</section>
+                <section id="low-temp">Low Temp</section>
+            </section>
+            <section id="tuesday" class="day">
+                <section id="top">Tuesday</section>
+                <section id="hi-temp">High Temp</section>
+                <section id="low-temp">Low Temp</section>
+            </section>
+            <section id="wednesday" class="day">
+                <section id="top">Wednesday</section>
+                <section id="hi-temp">High Temp</section>
+                <section id="low-temp">Low Temp</section>
+            </section>
+            <section id="thursday" class="day">
+                <section id="top">Thursday</section>
+                <section id="hi-temp">High Temp</section>
+                <section id="low-temp">Low Temp</section>
+            </section>
+            <section id="friday" class="day">
+                <section id="top">Friday</section>
+                <section id="hi-temp">High Temp</section>
+                <section id="low-temp">Low Temp</section>
+            </section>
+        </section>
+
         <button class="generate" type="button">Generate</button>
     </body>
 </html>
