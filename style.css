@@ -1,7 +1,4 @@
-.underline{
-    background-image: url('colorfulClouds.jpg');
-    background-repeat: no-repeat;
-}
-.separate{
-    background-color: blueviolet;
+.chart{
+    column-count: 5;
+    column-width: auto;
 }
